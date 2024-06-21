@@ -3,9 +3,6 @@ import Form from "./components/Form";
 import FilterButtonList from "./components/FilterButtonList";
 import TaskContainer from "./components/TaskContainer";
 import { useTasks } from './TasksContext';
-import Lezione from "./lezione/Lezione";
-
-import TaskInterface from './types/Task.interface';
 import Filters from './types/Filters.type';
 import Filter from './types/Filter.type';
 
