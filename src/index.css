@@ -1,0 +1,79 @@
+.myClass {
+  border: 5px solid green;
+}
+
+html,body {
+  margin: 0
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightblue;
+}
+h1 {
+  text-align: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+/* Main container */
+.todoapp {
+  background: #fff;
+  margin: 0 auto;
+  padding: 1rem;
+  position: relative;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2.5rem 5rem 0 rgba(0, 0, 0, 0.1);
+  max-width: 40rem;
+}
+/* list element */
+/* .list-container {
+  background-color: rgb(36, 72, 85);
+  padding: 0.5rem;
+  margin: 0;
+  color: white;
+} */
+/* Button */
+.filters {
+  margin-top: 1rem;
+}
+.btn {
+  margin: 0.2rem;
+  padding: 0.6rem 1rem;
+  border: none;
+  cursor: pointer;
+  background-color: lightblue;
+}
+.btn.toggle-btn:hover {
+  background-color: rgb(39, 89, 106);;
+  color: white;
+}
+.btn.active {
+  background-color: rgb(27, 68, 82);;
+  color: white;
+}
+/* Form */
+.input__lg {
+  padding: 0.6rem;
+  border: 1px solid #787878;
+}
+/* Todo */
+.empty-state {
+  background-color: lightcoral;
+  padding: 1rem;
+  color: white;
+}
+.todo {
+  background-color: #35606e;
+  padding: 0.3rem;
+  margin: 0.5rem auto;
+}
+.stack-small {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container > .completed {
+  color: black;
+  text-decoration: line-through;
+}

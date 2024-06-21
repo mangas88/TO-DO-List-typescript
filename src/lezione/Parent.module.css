@@ -1,0 +1,6 @@
+.border {
+  border: 1px solid red;
+  margin: 2rem;
+  padding: 1rem;
+  background-color: white;
+}
